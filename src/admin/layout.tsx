@@ -5,7 +5,7 @@ export const metadata = {
     description: 'Tablero de control de la tienda virtual'
 }
 
-const AdminLayout = ({children} : {children: React.RactNode}) => {
+const AdminLayout = ({children} : {children: React.ReactNode}) => {
   return (
     <div>
         <AdminNav/>

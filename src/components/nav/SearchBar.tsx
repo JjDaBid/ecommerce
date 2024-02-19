@@ -13,7 +13,6 @@ const SearchBar = () => {
     const {
         register,
         handleSubmit,
-        formState: { errors },
         reset
     } = useForm<FormData>({
         defaultValues: {
